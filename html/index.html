@@ -11,43 +11,49 @@
 <body>
     <header>
         <div class="container">
-            <div id="logo">
-                <img src="images/logo-fa.png" alt="Logo five arena">
-            </div>
-            <nav id="nav">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Nos terrains</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </nav>
-            <div id="sign">
-                <a href="">Inscription / Connexion</a>
+            <div class="row ai-center">
+                <div id="logo">
+                    <img src="images/logo-fa.png" alt="Logo five arena">
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Nos terrains</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+                <div id="sign">
+                    <a href="">Inscription / Connexion</a>
+                </div>
             </div>
         </div>
         <div class="container">
 
-            <div id="headlines">
-                <h1>Five Arena : Reservez votre terrains</h1>
-                <p>Reservez sur plus de 200 terrains disponible </p>
-            </div>
-
-            <div id="search-terrain">
-                <form action="" class="form">
-                    <div>
-                        <select name="type_surface">
-                            <option value="">Séléctionnez le type de surface</option>
-                            <option value="">Pelouse</option>
-                            <option value="">Béton</option>
-                        </select>
+            <div class="row jc-between">
+                <div class="col-4">
+                    <div id="headlines">
+                        <h1>Five Arena : Reservez votre terrains</h1>
+                        <p>Reservez sur plus de 200 terrains disponible </p>
                     </div>
-                    <div>
-                        <input type="date" name="date">
+                </div>
+                <div class="col-4">
+                    <div id="search-terrain">
+                        <form action="" class="form">
+                            <div>
+                                <select name="type_surface">
+                                    <option value="">Séléctionnez le type de surface</option>
+                                    <option value="">Pelouse</option>
+                                    <option value="">Béton</option>
+                                </select>
+                            </div>
+                            <div>
+                                <input type="date" name="date">
+                            </div>
+                            <button type="submit">Rechercher</button>
+                        </form>
                     </div>
-                    <button type="submit">Rechercher</button>
-                </form>
+                </div>
             </div>
-
         </div>
     </header>
 </body>

@@ -4,3 +4,68 @@
       url("../font/Archive-Regular.otf") format("opentype"),
 }
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
+
+body{
+    font-family: "Montserrat";
+}
+h1,h2,h3,h4{
+    font-family: "Archive";
+}
+h1{
+    font-size: 32px;
+}
+h2{
+    font-size: 26px;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    font-size: 18px;
+}
+.container{
+    width: 1190px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jc-between{
+    justify-content: space-between;
+}
+.ai-center{
+    align-items: center;
+}
+.col-4{
+    width:33.33%
+}
+.col-6{
+    width: 50%
+}
+.col-12{
+    width: 100%
+}
+img{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #004aad;
+}
+#logo{
+    width: 20%;
+}
+#nav{
+    width: 60%;
+}
+#sign{
+    width: 20%;
+}
+#nav ul{
+    display: flex;
+}
+#nav a{
+    padding-left:13px;
+    color: black
+}
