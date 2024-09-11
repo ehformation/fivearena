@@ -1,4 +1,4 @@
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".carousel-terrain", {
     slidesPerView: 4,
     centeredSlides: true,
     spaceBetween: 30,
