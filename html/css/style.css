@@ -229,7 +229,7 @@ a{
     transition: all .3s;
     border: none;
 }
-.btn-full{
+.full{
     width: 100%;
 }
 .btn:hover{
@@ -246,4 +246,13 @@ a{
 }
 .btn-yellow:hover{
     color: #ffbd59;
+}
+
+.form select, .form input {
+    padding: 12px;
+    border: 1px solid #dcdcdc;
+    border-radius: 13px;
+    margin-bottom: 22px;
+    font-family: 'Montserrat';
+    color: #919191;
 }
