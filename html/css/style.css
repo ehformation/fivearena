@@ -48,6 +48,9 @@ h4{
 .ai-center{
     align-items: center;
 }
+.col-3{
+    width:25%
+}
 .col-4{
     width:33.33%
 }
@@ -234,6 +237,8 @@ a{
     text-decoration: none;
     transition: all .3s;
     border: none;
+    display: inline-block;
+    text-align: center;
 }
 .full{
     width: 100%;
