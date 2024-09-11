@@ -69,3 +69,6 @@ a{
     padding-left:13px;
     color: black
 }
+.bg-image{
+    background: url('../images/bgheader.jpg');
+}
