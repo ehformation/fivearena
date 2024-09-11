@@ -31,6 +31,9 @@ h4{
 .blue{color: #004aad;}
 .yellow{color: #ffbd59;}
 
+.bg-blue{background-color: #004aad;}
+.bg-yellow{background-color: #ffbd59;}
+
 .container{
     width: 1190px;
     margin: auto;
