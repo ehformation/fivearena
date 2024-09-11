@@ -180,6 +180,9 @@ h4{
 img{
     width: 100%;
 }
+.bold{
+    font-weight: bold;
+}
 a{
     text-decoration: none;
     color: #004aad;
@@ -197,8 +200,10 @@ a{
     display: flex;
 }
 #nav a{
-    padding-left:13px;
-    color: black
+    padding: 12px;
+    color: black;
+    display: block;
+    font-weight: bold;
 }
 .bg-image{
     background: url(../images/bgheader.jpg) no-repeat;
@@ -208,4 +213,28 @@ a{
     background-color: white;
     padding: 13px;
     border-radius: 14px;
+}
+.btn{
+    padding: 23px;
+    border-radius: 14px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    transition: all .3s;
+}
+.btn:hover{
+    background-color: white;
+}
+.btn-blue{
+    background-color: #004aad;
+}
+.btn-blue:hover{
+    color: #004aad;
+}
+.btn-yellow{
+    background-color: #ffbd59;
+}
+.btn-yellow:hover{
+    color: #ffbd59;
 }
