@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -6,7 +7,6 @@
     src:
       url("../font/Archive-Regular.otf") format("opentype"),
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap');
 
 body{
     font-family: "Montserrat";
@@ -227,6 +227,10 @@ a{
     font-size: 14px;
     text-decoration: none;
     transition: all .3s;
+    border: none;
+}
+.btn-full{
+    width: 100%;
 }
 .btn:hover{
     background-color: white;
