@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 @font-face {
     font-family: "Archive";
     src:
@@ -200,4 +203,9 @@ a{
 .bg-image{
     background: url(../images/bgheader.jpg) no-repeat;
     background-size: cover;
+}
+.cadre{
+    background-color: white;
+    padding: 13px;
+    border-radius: 14px;
 }
