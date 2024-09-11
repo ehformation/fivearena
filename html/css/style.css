@@ -283,3 +283,18 @@ a:hover{
     padding-right: 12px;
     font-size: 26px;
 }
+.meta {
+    margin-top: -38px;
+    margin-bottom: 26px;
+}
+.badge{
+    padding: 5px;
+    border-radius: 9px;
+    background-color: white;
+    display: inline-block;
+    margin-left: 12px;
+    font-size: 13px;
+}
+.item img{
+    border-radius: 13px;
+}
