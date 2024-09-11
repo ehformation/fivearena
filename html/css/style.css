@@ -198,8 +198,14 @@ a{
     text-decoration: none;
     color: #004aad;
 }
+a:hover{
+    color: #ffbd59;
+}
 #footer a{
     color: white;
+}
+#footer a:hover{
+    color: #ffbd59;
 }
 #logo{
     width: 20%;
@@ -218,6 +224,9 @@ a{
     color: black;
     display: block;
     font-weight: bold;
+}
+#nav a:hover{
+    color: #004aad;
 }
 .bg-image{
     background: url(../images/bgheader.jpg) no-repeat;
@@ -266,4 +275,8 @@ a{
     margin-bottom: 22px;
     font-family: 'Montserrat';
     color: #919191;
+}
+#social a{
+    padding-right: 12px;
+    font-size: 26px;
 }
